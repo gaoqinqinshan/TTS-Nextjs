@@ -2,7 +2,7 @@ import { usersRepo } from "@/_server/userModel/api-repo";
 import { NextRequest } from "next/server";
 import joi from 'joi'
 import { serverApiHandler } from "@/_server/api";
-
+// 用户注册
 const register = async (req: NextRequest) => {
     const body = await req.json();
     return await usersRepo.create(body);

@@ -3,7 +3,7 @@ import { errorHandler } from "./error-handler";
 import { jwtMiddleware } from "./jwt-middleware";
 import { paramsValidateMiddleware } from "./params-validate-middleware";
 
-
+// 统一HTTP请求
 export function serverApiHandler (handler: any) {
     const warppendHandle: any = {}
     const httpMethods = ["GET", "POST", "PUT", "DELETE"];

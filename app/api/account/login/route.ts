@@ -4,7 +4,7 @@ import { cookies } from "next/headers";
 import { NextRequest } from "next/server";
 import joi from 'joi'
 
-
+// 登录
 const login = async (req: NextRequest) => {
     const body = await req.json();
     const { user, token} = await usersRepo.authenticate(body);

@@ -3,7 +3,7 @@ import { Upload, UploadFile, UploadProps, message } from 'antd'
 import React, { CSSProperties, useState } from 'react'
 import { InboxOutlined } from '@ant-design/icons';
 import { FileTypes } from '@/interface';
-
+// 上传文件页
 type BaseAttribute = {
     id: string;
     fileName: string;

@@ -1,3 +1,4 @@
+// 排除不需要的的Node模块 目的是轻量化
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     webpack: (config) => {

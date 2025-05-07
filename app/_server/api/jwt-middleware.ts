@@ -2,7 +2,7 @@ import { auth } from "_server/auth";
 import { NextRequest } from "next/server";
 
 
-// jwt 中间件 验证
+// JWT 鉴权中间件
 export const jwtMiddleware = async (req: NextRequest) => {
 
     if(isPublicPath(req)) return;

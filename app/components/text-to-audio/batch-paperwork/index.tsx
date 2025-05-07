@@ -11,7 +11,7 @@ import AudioConfig from '../audio-config';
 import styles from './index.module.css'
 import { AudioBtnConfig, SpeechConfigType } from '@/interface';
 import { getStyleRoleName, getVoiceName } from '@/store';
-
+// 文本生成音乐
 type TableDataType = {
   id: string;
   fileName: string;

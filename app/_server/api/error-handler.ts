@@ -1,7 +1,7 @@
 import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
 
-
+// 标准化错误的响应 全局错误处理
 export const errorHandler = (err: Error | string) => {
     if(typeof err === 'string'){
         const is404 = err.toLowerCase().endsWith('not found🍎')

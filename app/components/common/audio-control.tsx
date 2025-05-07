@@ -4,7 +4,7 @@ import { DownloadOutlined } from '@ant-design/icons'
 import { Button } from 'antd'
 import { useTextToSpeechConfig } from '@/store/text-to-speech-config'
 import { downloadAudioFile } from '@/utils/common-methods'
-
+// 音频控件 （播放/下载）
 type AudioControlProps = {
     style?: CSSProperties
     src?: string;

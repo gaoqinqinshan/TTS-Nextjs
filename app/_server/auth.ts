@@ -1,6 +1,6 @@
 import { cookies } from 'next/headers'
 import jwt from "jsonwebtoken"
-
+// 身份验证
 const isAuthenticated = () => {
     try{
         verifyToken();

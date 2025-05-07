@@ -1,3 +1,4 @@
+//自动验证请求体（Request Body）并标准化错误反馈
 import Joi from "joi";
 import { NextRequest } from "next/server";
 

@@ -7,7 +7,7 @@ import 'dayjs/locale/zh-cn';
 import zhCN from 'antd/locale/zh_CN';
 import Login from "../common/login"
 import { useState } from "react"
-
+//应用的首页
 export default function Home({ childrenList }: { childrenList?: IRouteItemTypes[] }) {
     const navigate = useNavigate();
     const { pathname } = useLocation();

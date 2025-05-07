@@ -2,7 +2,7 @@ import { Spin } from 'antd'
 import React from 'react'
 
 
-/** loading */
+// 加载组件
 export const Loading = () => {
   return (
     <div style={{ width: '100%', height:"100%", display:'flex' }}>
