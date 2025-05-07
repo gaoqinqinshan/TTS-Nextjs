@@ -2,7 +2,7 @@ import { useSearchParams } from "react-router-dom";
 import { useFetch } from "./use-fetch"
 import { IUser, userStore } from "@/store/user-data";
 import { message } from "antd";
-
+// 用户的相关服务封装
 type UseUserServiceReturnType = {
     currentUser?: IUser
     login: (username: string, password: string) => Promise<any>

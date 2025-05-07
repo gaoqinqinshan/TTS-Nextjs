@@ -5,7 +5,7 @@ import { splitText } from "@/utils/common-methods";
 import { useTextToSpeechConfig } from "@/store/text-to-speech-config";
 
 
-
+// TAB封装
 type UseTextToSpeechProps = {
     plainText: (params: SpeechConfigType) => Promise<any>
 

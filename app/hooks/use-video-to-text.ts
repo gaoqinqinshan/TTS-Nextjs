@@ -2,7 +2,7 @@ import { characterRecognitionModel } from "@/_server/characterRecognitionModel"
 import { REQUESTERR, RESPONSEOK } from "@/constant"
 import { SpeechToTextType } from "@/interface"
 import { useFetch } from "./use-fetch"
-
+//封装音频转文本的SDK 并返回统一格式的结果。
 type UseVideoToTextProps = {
     videoRecognizer: (params: SpeechToTextType) => Promise<any>
 
