@@ -1,6 +1,6 @@
 import { create } from "zustand"
 
-
+//管理当前登录用户的信息
 export type IUser = {
     id: string;
     username: string;

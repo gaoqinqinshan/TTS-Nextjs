@@ -1,5 +1,5 @@
 import { DefaultOptionType } from "antd/es/select";
-
+// 具体配置
 const voices = [
     {
         "Name": "Microsoft Server Speech Text to Speech Voice (af-ZA, AdriNeural)",

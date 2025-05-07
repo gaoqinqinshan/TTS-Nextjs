@@ -2,7 +2,7 @@ import { StoreKey } from "@/constant";
 import { SSMLTYPE, SpeechConfigType } from "@/interface";
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
-
+//文本转语音配置
 export type CustomConfigType  = {
     id: string;
     name: string;

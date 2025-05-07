@@ -1,6 +1,6 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
-
+//全局状态管理
 export type AppConfigStore = {
     
 }

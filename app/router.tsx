@@ -3,7 +3,7 @@ import dynamic from "next/dynamic";
 import { ComponentType, Fragment } from "react";
 import { Navigate, Route } from "react-router-dom";
 import {Loading} from '@/components/common/base-components'
-
+// 路由
 export interface IRouteItemTypes {
     label?: string;
     key: string;

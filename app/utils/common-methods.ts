@@ -1,7 +1,7 @@
 import JSZip from 'jszip'
 import FileSaver from 'file-saver'
 
-
+// 下载
 /** 将多文件打包在 zip 文件 */
 export const zipFileByBlobUrl = (downloadList: any[], format: string) => {
     return new Promise(async (resolve) => {
